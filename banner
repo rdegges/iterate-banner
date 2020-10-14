@@ -1,0 +1,24 @@
+
+
+
+          >>> speaker = iterate.speaker.create({
+          ...     'name': 'Alex Salazar',
+          ...     'twitter': '@salatzar',
+          ...     'role': 'VP Products, Developer and Integrations Ecosystem, Okta',
+          ... })
+          >>> speaker.ping()
+          PING alex.salazar (97.108.101.120) 56(84) bytes of data
+          64 bytes from alex.salazar (97.108.101.120): icmp_seq=1 ttl=64 time=275ms
+          64 bytes from alex.salazar (97.108.101.120): icmp_seq=2 ttl=64 time=202ms
+          64 bytes from alex.salazar (97.108.101.120): icmp_seq=3 ttl=64 time=197ms
+          64 bytes from alex.salazar (97.108.101.120): icmp_seq=4 ttl=64 time=101ms
+          64 bytes from alex.salazar (97.108.101.120): icmp_seq=5 ttl=64 time=75ms
+          64 bytes from alex.salazar (97.108.101.120): icmp_seq=6 ttl=64 time=22ms
+          64 bytes from alex.salazar (97.108.101.120): icmp_seq=7 ttl=64 time=0.002ms
+          --- alex.salazar ping statistics ---
+          7 packets transmitted, 7 received, 0% packet loss, time 12,000ms
+          rtt min/avg/max/mdev = 125.034/126.220/126.201/4.852 ms
+          >>> speaker.appear()
+
+
+
